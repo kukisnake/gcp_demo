@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "t-lexicon-413012",
+  "private_key_id": "c20cef0cd7f28f3f660eee254d5e4baa8f9b63ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDz7Ym66NXq8yOT\nRENeOWMf0vZ9gYnqi3rTXFTu5zcclO7sEGUNeim8qJffN5wUHvEb+P2M8Rs00owO\nUpU84CqtfhnE4NQHGbu+TNr+cFwpJ8vG44knQCYlCj3SyHZ6Bq1iIO6qVy1ABcmC\nec2Tbi20a0SQDjI/sd8Ztann20t0PG0fstT7/PjIGu9ccp7CI2Y+nFKPAccUTOAD\nixRP0X6nTNfaIvZx2h5p+9sWwLJSgK9OByZpZUK02prdZUPVwoO7zcE3WDNvXeNi\n63HU2EBwd9ogSr15G4sZTdGfMDKIOCxKOg7aNFr7ySKqVu5Y5CT+NjgNtqKdopZo\njEqTkvG5AgMBAAECggEAG0fCIxK+NegaXvJ//E47vUfpRFET/RS7WF8Xqp5WRg6M\nB/+vZYn3l/9c+NxtyrxJJ+E5biVa7xXrDwECaswBSeTz+dZRMDgbDKXoyhMD46Bt\nRGGXKbodagASuPutcGlFw9c+CfP0/heHmV2I9ceZOffTM686xG/erS/pgCJA9o9B\nmduQeH9aqF5E4+6teJHQ6EtOx7pwiOoa33hw5kpmdVjXSoChAc7hUcVJw3JCC43a\nPPfRQHYFkqiNnmJzI2L4t5Tt+5z/vMbxnrkbJUMVbnkyXatvhCFFeglp8FrZGvkN\nnEUgSnYPvUxrN+OE5BIGVAZ6HvaLfKH6yKizQGvFeQKBgQD6Elp5Q4t87x4dUeYR\niyNDT3leeMTG4o0cMOAnFlv1hsQeKrP37CU14pSIwGm1MfbsR9fBkkt9Y5EW9CfZ\nXnZFqAiqqyIQNq8hu7ufQec6gZk6xI95UGTCmhpPsxpQhZK1YXo+eHtj/emqL+7Z\nrMiyekEBZznnpdau005MfL/pbQKBgQD5teYU/Y2cwkUX9W7d421EjD/sUHRZ9nR8\niJfg2iHFa6cApUo7nMe2VUL6gRcScHkS5E2888Q3DVlc1F5RD+Q+ILSQr+hpd9eo\n9B+1SsGRTwUnKRgCY3geq1pq3FuvwZI3c83jONPnfSSFelQTOD0adjz77A6E0wlh\nMfYz1o6l/QKBgGOaIc0A2TMGrpDxCNjd+UqbAfVd1sp8e8XJtc37ut7dMYnuakYK\nGXwP5idds/zGjNnpd4cS9NxZZvWkg6axWBxAZEtN5EBe93xRINa60hVcfyKIHbkt\nCyTzah1qccW2ngt+asktBcB65rGxa8npZvqndPLRIaAhTpPNd/dBDNM1AoGAHfS6\nU05PjLypeURSNoAv/Yctq/XC33/3XXEtdyXz4zEU6bjqfNhEBRWZYV/XGrkvbRrC\nUKaVpV0OmVpIrkTPxrw5rRnNMcnUr0oJ+7+qFPp7zcTaQn8YS+WWhTdGMIFyPwC/\ndEC++whCN1kDeQLIIcKJcldRLpH6kBRkSre0iSkCgYBLzSvCStr2ncZGx/3egTt5\nl4KTEtH4S9YbtcDjh6wFG0jdffEBwy9fSzNcbIFUwQZICafUJm2jcmRFEgKvQEpC\nVmca9sP4iQoPgikHkKd+LSG9Ncpi/5paZY7Z6RR1UwhCLRknWtQJHlFvHLRVsxlC\nDtYJVIQxiLwXrVvN3eZ4+w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "planszomania@t-lexicon-413012.iam.gserviceaccount.com",
+  "client_id": "108621734718392041919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/planszomania%40t-lexicon-413012.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
