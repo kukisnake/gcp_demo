@@ -29,4 +29,21 @@ resource "google_firestore_database" "database" {
   project = var.project_id
 }
 
+# Define the resources
+resource "google_compute_instance" "vm_instance" {
+  name         = "planszomania_kukisnake"
+  machine_type = "e2-micro"  # Update with desired machine type
+  zone         = "us-central1-a"  # Update with desired zone
+  boot_disk {
+    initialize_params {
+      image = "debian-cloud/debian-10"  # Update with desired OS image
+    }
+  }
+  network_interface {
+    network = "default"
+    access_config {
+      // Ephemeral IP
+    }
+  }
+}
 
