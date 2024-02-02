@@ -11,39 +11,27 @@ resource "google_storage_bucket" "frontend_bucket" {
   location = var.region
 
   website {
-    index_document = "index.html"
-    error_document = "error.html"
+    main_page_suffix = "index.html"
+    not_found_page   = "error.html"
   }
 }
 
-# Create a Google Cloud Function for the backend
+
 resource "google_cloudfunctions_function" "backend_function" {
   name        = var.backend_function_name
   runtime     = var.backend_runtime
-  source_code = "${path.module}/backend_function"
+  source_archive_bucket = var.source_bucket
+  source_archive_object = var.source_object
+  # Or, if deploying from a repository:
+  # source_repository = var.source_repository
+  # source_repository_branch = var.source_repository_branch
   entry_point = "handler"
 }
 
 # Create a Google Cloud Firestore database
 resource "google_firestore_database" "database" {
   project = var.project_id
+  name    = "example-database"
+  location_id = var.region  # Specify the desired location
+  type    = "DATASTORE_MODE"
 }
-
-# Define the resources
-resource "google_compute_instance" "vm_instance" {
-  name         = "planszomania_kukisnake"
-  machine_type = "e2-micro"  # Update with desired machine type
-  zone         = "us-central1-a"  # Update with desired zone
-  boot_disk {
-    initialize_params {
-      image = "debian-cloud/debian-10"  # Update with desired OS image
-    }
-  }
-  network_interface {
-    network = "default"
-    access_config {
-      // Ephemeral IP
-    }
-  }
-}
-
