@@ -25,7 +25,7 @@ variable "backend_function_name" {
 
 variable "backend_runtime" {
   description = "Runtime environment for the backend function (e.g., nodejs14)"
-  default = "nodejs21"
+  default = "nodejs20"
 }
 
 # Create a Google Cloud Function for the backend
@@ -39,7 +39,7 @@ variable "source_object" {
 }
 
 variable "entry_point" {
-  default = "handler"
+  default = "app"
 }
 
 variable "trigger_http" {

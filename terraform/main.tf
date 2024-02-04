@@ -23,7 +23,7 @@ resource "google_storage_bucket_object" "function_code" {
   #storage_class       = "STANDARD"
   #content_disposition = "attachment"
   #content_type        = "application/zip"
-  source = "${path.module}/../backend_function/index.js"  # Local path to the file to upload
+  source = "${path.module}/../backend_function/function-source.zip"  # Local path to the file to upload
 }
 
 resource "google_cloudfunctions_function" "backend_function" {
